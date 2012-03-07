@@ -195,7 +195,6 @@ public class FlickrWorker implements Worker {
                     Element a = (Element) nl.item(j);
                     st.put(a.getAttribute("title"), a.getAttribute("id"));
                     setToCollection.put(a.getAttribute("id"), nid);
-                    System.out.println(a.getAttribute("id") + " " + nid);
                 }
             }
         }
